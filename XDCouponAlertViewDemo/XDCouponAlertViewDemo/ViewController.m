@@ -27,7 +27,6 @@
 
 - (void)show{
     XDCouponAlertView *alertView = [[XDCouponAlertView alloc] initWithTitle:@"你确定退出登" message:@"你确定退出登" phone:@"你确定退出登" delegate:self cancelButtonTitle:@"确定", nil];
-    alertView.type = XDCouponAlertView_Custom;
     alertView.delegate = self;
     [alertView show];
     

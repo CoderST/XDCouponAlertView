@@ -7,10 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef enum {
-    XDCouponAlertView_Fixed,   // 尺寸固定
-    XDCouponAlertView_Custom   // 自定义尺寸
-}XDCouponAlertViewType;
 @class XDCouponAlertView;
 @protocol XDCouponAlertViewDelegate <NSObject>
 
@@ -24,6 +20,5 @@ typedef enum {
 - (void)show;
 
 @property (nonatomic,weak) id<XDCouponAlertViewDelegate> delegate;
-@property (nonatomic,assign) XDCouponAlertViewType type;
 
 @end
