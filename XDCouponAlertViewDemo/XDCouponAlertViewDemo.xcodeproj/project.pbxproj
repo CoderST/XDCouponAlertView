@@ -15,7 +15,7 @@
 		0FC8C29B1CA9857F005261B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC8C2991CA9857F005261B1 /* LaunchScreen.storyboard */; };
 		0FC8C2A61CA9857F005261B1 /* XDCouponAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8C2A51CA9857F005261B1 /* XDCouponAlertViewDemoTests.m */; };
 		0FC8C2B11CA9857F005261B1 /* XDCouponAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8C2B01CA9857F005261B1 /* XDCouponAlertViewDemoUITests.m */; };
-		0FC8C2C51CA986E5005261B1 /* XDCouponAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8C2C41CA986E5005261B1 /* XDCouponAlertView.m */; };
+		0FC8C2CA1CAA49FC005261B1 /* XDCouponAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8C2C91CAA49FC005261B1 /* XDCouponAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		0FC8C2AC1CA9857F005261B1 /* XDCouponAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDCouponAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC8C2B01CA9857F005261B1 /* XDCouponAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDCouponAlertViewDemoUITests.m; sourceTree = "<group>"; };
 		0FC8C2B21CA9857F005261B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FC8C2C31CA986E5005261B1 /* XDCouponAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCouponAlertView.h; sourceTree = "<group>"; };
-		0FC8C2C41CA986E5005261B1 /* XDCouponAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCouponAlertView.m; sourceTree = "<group>"; };
+		0FC8C2C81CAA49FC005261B1 /* XDCouponAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCouponAlertView.h; sourceTree = "<group>"; };
+		0FC8C2C91CAA49FC005261B1 /* XDCouponAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCouponAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		0FC8C28A1CA9857F005261B1 /* XDCouponAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0FC8C2C21CA986E5005261B1 /* XDAlertView */,
+				0FC8C2C71CAA49FC005261B1 /* XDAlertView */,
 				0FC8C28E1CA9857F005261B1 /* AppDelegate.h */,
 				0FC8C28F1CA9857F005261B1 /* AppDelegate.m */,
 				0FC8C2911CA9857F005261B1 /* ViewController.h */,
@@ -144,14 +144,13 @@
 			path = XDCouponAlertViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		0FC8C2C21CA986E5005261B1 /* XDAlertView */ = {
+		0FC8C2C71CAA49FC005261B1 /* XDAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				0FC8C2C31CA986E5005261B1 /* XDCouponAlertView.h */,
-				0FC8C2C41CA986E5005261B1 /* XDCouponAlertView.m */,
+				0FC8C2C81CAA49FC005261B1 /* XDCouponAlertView.h */,
+				0FC8C2C91CAA49FC005261B1 /* XDCouponAlertView.m */,
 			);
-			name = XDAlertView;
-			path = "../../../../Desktop/demo/ME/练习/弹窗/XDCouponAlertView/XDCouponAlertView/XDAlertView";
+			path = XDAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FC8C2931CA9857F005261B1 /* ViewController.m in Sources */,
-				0FC8C2C51CA986E5005261B1 /* XDCouponAlertView.m in Sources */,
+				0FC8C2CA1CAA49FC005261B1 /* XDCouponAlertView.m in Sources */,
 				0FC8C2901CA9857F005261B1 /* AppDelegate.m in Sources */,
 				0FC8C28D1CA9857F005261B1 /* main.m in Sources */,
 			);
@@ -511,6 +510,7 @@
 				0FC8C2B71CA9857F005261B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC8C2B81CA9857F005261B1 /* Build configuration list for PBXNativeTarget "XDCouponAlertViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +519,7 @@
 				0FC8C2BA1CA9857F005261B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC8C2BB1CA9857F005261B1 /* Build configuration list for PBXNativeTarget "XDCouponAlertViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +528,7 @@
 				0FC8C2BD1CA9857F005261B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
